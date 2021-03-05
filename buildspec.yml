@@ -5,6 +5,7 @@ phases:
     commands:
       - echo Installing Serverless...
       - npm install -g serverless
+      - npm install
   pre_build:
     commands:
       - echo Deployment started on `date`
